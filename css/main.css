@@ -80,9 +80,9 @@ h5{
 h6{
 
 	margin-top: 15px;
-	font-family: font;
+	font-family: fontReg;
 	color: #333333;
-	font-size: 20px;
+	font-size: 22px;
 	
 
 }
@@ -90,6 +90,7 @@ h6{
 #about h6{
 	font-family: fontReg;
 	color:white;
+	font-size: 22px;
 
 }
 
@@ -267,8 +268,15 @@ list-style:none;
     border-radius: 4px;
     position: relative;
     left:50px;
+    max-width:300px;
     
 	background:lightgray;
+
+}
+
+.consultDesc{
+
+	max-width:300px;
 
 }
 
@@ -675,8 +683,8 @@ background:red;
 
 
 	color:white;
-	font-size: 20px;
-	font-family: fontReg;
+	font-size: 26px;
+	font-family: font;
 
 
 }
@@ -698,8 +706,8 @@ background:red;
   	float: left;
   	margin-top: 0px;
   	padding:15px 30px 15px 15px;
-
-
+  	left:0;
+  	width:100%;
   }
 
 
